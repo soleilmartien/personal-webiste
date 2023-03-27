@@ -1,0 +1,122 @@
+body, html {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+}
+body{
+    background:rgb(30, 45, 89)
+}
+nav li {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left:10%;
+
+}
+
+.cp {
+    color: white;
+}
+nav ul {
+    background-color:rgb(30, 45, 89);
+    margin: 0;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: whitesmoke;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+}
+nav a:hover {
+    color: blueviolet;
+}
+
+#main{
+    color: white;
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+#profile-image{
+    width: 110px;
+}
+#profile{
+    text-align: center;
+}
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+#profile h2 {
+    display: inline;
+}
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.hero-text {
+    padding-left: 35%;
+}
+.side-articles{
+    color: white;
+    background-color:rgb(87, 87, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17.5px;
+    text-align: center;
+}
+.main-articles{
+    background-color: rgb(87, 87, 255);
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    margin-top: 0px;
+}
+footer div{
+    text-align: center;
+    color: black;
+}
+
+main{
+    overflow: auto;
+}
+
+h1{
+    color: white;
+}
+#me{
+    color: white;
+}
